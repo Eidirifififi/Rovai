@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Site de Filmes</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #eee;
+            padding: 10px;
+        }
+
+        nav a {
+            margin-right: 15px;
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+        }
+
+        main {
+            padding: 20px;
+        }
+
+        #search-bar {
+            margin-bottom: 20px;
+        }
+
+        .video-link {
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Meu Site de Filmes</h1>
+</header>
+
+<nav>
+    <a href="#">InÃ­cio</a>
+    <a href="#">Lista de Filmes</a>
+    <!-- Adicione mais links conforme necessÃ¡rio -->
+</nav>
+
+<main>
+    <div id="search-bar">
+        <label for="search">Pesquisar:</label>
+        <input type="text" id="search" name="search">
+        <button type="button">Buscar</button>
+    </div>
+
+    <h2>Lista de Filmes</h2>
+
+    <ul>
+        <li>Filme 1 - TÃ­tulo do Filme <a href="link_para_video1" class="video-link">(Assistir ao Trailer)</a></li>
+        <li>Filme 2 - TÃ­tulo do Filme <a href="link_para_video2" class="video-link">(Assistir ao Trailer)</a></li>
+        <li>Filme 3 - TÃ­tulo do Filme <a href="link_para_video3" class="video-link">(Assistir ao Trailer)</a></li>
+        <!-- Adicione mais filmes conforme necessÃ¡rio -->
+    </ul>
+</main>
+
+</body>
+</html>
